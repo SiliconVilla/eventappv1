@@ -27,6 +27,6 @@ class ApoyosfullExport implements FromCollection, WithHeadings
      */
     public function headings(): array
     {
-        return ["id", "user_id", "apoyo", "estado", "reserva", "tarifa", "servicios", "corresponsabilidad", "created_at", "updated_at"];
+        return ["id", "user_id", "email", "apoyo",  "lugar", "estado", "saldoAnterior", "entrada", "salida", "saldo", "saldoCreacion", "saldoActualizacion", "reserva", "tarifa", "servicios", "corresponsabilidad", "created_at", "updated_at"];
     }
 }
